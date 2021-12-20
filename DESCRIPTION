@@ -12,5 +12,5 @@ LinkingTo: Rcpp
 Encoding: UTF-8
 RoxygenNote: 7.1.2
 VignetteBuilder: knitr
-URL: https://github.com/ustczjq/StatComp21040.git
-BugReports: http://github.com/ustczjq/StatComp/issues
+URL: https://github.com/ustczjq/StatComp21040
+BugReports: http://github.com/ustczjq/StatComp21040/issues
