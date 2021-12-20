@@ -1,0 +1,7 @@
+git init 
+git add * 
+git commit -m "first commit" 
+git config --global user.name "ustczjq"
+git config --global user.email "sysu_zjq@163.com"
+git remote add origin https://github.com/ustczjq/StatComp.git
+git push -u origin master
