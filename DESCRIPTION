@@ -1,0 +1,16 @@
+Package: StatComp21040
+Type: Package
+Title: The Detection of Change Point with a MCMC method and an intuitive method
+Version: 1.0
+Date: 2021-12-18
+Author: Jiaqi Zhang
+Maintainer: Jiaqi Zhang <ustczjq1998@ustc.edu.cn>
+Description: In the study involved with time series,the sudden and even anomalous change of data is a common phenomenon, which sometimes implies valuable informaton and therefore cannot be simply regarded as a "outlier". This  calls for the change point analysis. Two methods are included in this package to demonstrate the detection of change point.One is an intuitive method using slope,where two types of change point are considered.And the other method is implemented using MCMC method,where the data is assumed to follow a Normal distribution with the prior assumption that the location parameters follow Normal distribution,too.Under this framework,the posterior distributions are derived and change point estimation is finished according to the Metropolis-Hastings Sampler,an acceptance probability. Specific steps for these will be introduced later. What's more, previous codes of homework and several Rcpp functions are included in this package.
+License: GPL (>= 2)
+Imports: Rcpp, knitr, rmarkdown, stats, nortest, MASS, RANN, Ball, energy, boot, bootstrap, parallel, microbenchmark
+LinkingTo: Rcpp
+Encoding: UTF-8
+RoxygenNote: 7.1.2
+VignetteBuilder: knitr
+URL: http://github.com/ustczjq/StatComp
+BugReports: http://github.com/ustczjq/StatComp/issues
